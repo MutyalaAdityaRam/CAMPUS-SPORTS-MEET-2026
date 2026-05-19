@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Chess event</title>
+  <desc id="desc">Chess pieces on a board</desc>
+  <defs>
+    <linearGradient id="room" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7f3e8"/>
+      <stop offset="1" stop-color="#b8c6db"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#room)"/>
+  <g transform="translate(170 300) rotate(-8)">
+    <rect width="560" height="190" rx="14" fill="#f8fafc" stroke="#152034" stroke-width="8"/>
+    <g>
+      <rect x="0" y="0" width="70" height="47.5" fill="#152034"/><rect x="140" y="0" width="70" height="47.5" fill="#152034"/><rect x="280" y="0" width="70" height="47.5" fill="#152034"/><rect x="420" y="0" width="70" height="47.5" fill="#152034"/>
+      <rect x="70" y="47.5" width="70" height="47.5" fill="#152034"/><rect x="210" y="47.5" width="70" height="47.5" fill="#152034"/><rect x="350" y="47.5" width="70" height="47.5" fill="#152034"/><rect x="490" y="47.5" width="70" height="47.5" fill="#152034"/>
+      <rect x="0" y="95" width="70" height="47.5" fill="#152034"/><rect x="140" y="95" width="70" height="47.5" fill="#152034"/><rect x="280" y="95" width="70" height="47.5" fill="#152034"/><rect x="420" y="95" width="70" height="47.5" fill="#152034"/>
+      <rect x="70" y="142.5" width="70" height="47.5" fill="#152034"/><rect x="210" y="142.5" width="70" height="47.5" fill="#152034"/><rect x="350" y="142.5" width="70" height="47.5" fill="#152034"/><rect x="490" y="142.5" width="70" height="47.5" fill="#152034"/>
+    </g>
+  </g>
+  <path d="M410 135 H490 L472 182 C505 207 515 260 492 300 H408 C385 260 395 207 428 182 Z" fill="#152034"/>
+  <rect x="392" y="300" width="116" height="36" rx="10" fill="#152034"/>
+  <rect x="365" y="336" width="170" height="40" rx="12" fill="#152034"/>
+  <circle cx="450" cy="112" r="38" fill="#152034"/>
+  <path d="M447 58 H453 V166 M400 105 H500" stroke="#ffce5c" stroke-width="12" stroke-linecap="round"/>
+</svg>

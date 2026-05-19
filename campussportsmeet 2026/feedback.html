@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback | Campus Sports Meet 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html"><img class="brand-logo" src="images/logo.svg" alt=""> <span>Campus Sports Meet 2026</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="sports.html">Sports Events</a>
+        <a href="register.html">Register</a>
+        <a class="active" href="feedback.html">Feedback</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-title">
+      <p class="eyebrow">Post Event Review</p>
+      <h1>Student Feedback Form</h1>
+    </section>
+
+    <div id="feedbackMessage" class="banner-message" aria-live="polite"></div>
+
+    <section class="form-grid feedback-layout">
+      <form id="feedbackForm" class="form-card" novalidate>
+        <h2>Share Your Feedback</h2>
+
+        <div class="field-group">
+          <label for="feedbackName">Student Name</label>
+          <input type="text" id="feedbackName" name="feedbackName" placeholder="Enter full name">
+          <span class="error" id="feedbackNameError"></span>
+        </div>
+
+        <div class="field-group">
+          <label for="feedbackRegister">Register Number</label>
+          <input type="text" id="feedbackRegister" name="feedbackRegister" placeholder="BL.XX.XXXNNNNN">
+          <span class="error" id="feedbackRegisterError"></span>
+        </div>
+
+        <div class="field-group">
+          <label for="feedbackEvent">Event Attended</label>
+          <select id="feedbackEvent" name="feedbackEvent">
+            <option value="">Select event</option>
+          </select>
+          <span class="error" id="feedbackEventError"></span>
+        </div>
+
+        <div class="field-group">
+          <label for="rating">Rating</label>
+          <select id="rating" name="rating">
+            <option value="">Select rating</option>
+            <option value="1">1 - Poor</option>
+            <option value="2">2 - Fair</option>
+            <option value="3">3 - Good</option>
+            <option value="4">4 - Very Good</option>
+            <option value="5">5 - Excellent</option>
+          </select>
+          <span class="error" id="ratingError"></span>
+        </div>
+
+        <div class="field-group">
+          <label for="comments">Comments</label>
+          <textarea id="comments" name="comments" rows="5" placeholder="Write at least 20 characters"></textarea>
+          <span class="error" id="commentsError"></span>
+        </div>
+
+        <button class="primary-button" type="submit">Submit Feedback</button>
+      </form>
+
+      <aside class="summary-card">
+        <h2>Feedback Summary</h2>
+        <p class="counter"><span id="feedbackCount">0</span> Reviews</p>
+        <p class="average">Overall Average Rating: <strong id="averageRating">0.0</strong> / 5</p>
+        <div id="feedbackSummary" class="details-list">
+          <p class="muted">Event-wise average ratings will appear here.</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Department of Physical Education | Sports Committee | Contact: sportscommittee@college.edu | +91 98765 43210</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

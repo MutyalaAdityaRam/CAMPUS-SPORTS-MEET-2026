@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Basketball event</title>
+  <desc id="desc">Basketball court and hoop</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe29f"/>
+      <stop offset="1" stop-color="#ffa99f"/>
+    </linearGradient>
+    <radialGradient id="orange" cx=".35" cy=".25" r=".8">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#d95d0b"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#wall)"/>
+  <rect y="355" width="900" height="205" fill="#355070"/>
+  <path d="M0 430 C235 390 610 390 900 430" fill="none" stroke="#edf2f4" stroke-width="7"/>
+  <path d="M630 80 H785 V185 H630 Z" fill="#f8fafc" stroke="#152034" stroke-width="12"/>
+  <rect x="678" y="126" width="59" height="38" fill="none" stroke="#d94141" stroke-width="8"/>
+  <ellipse cx="708" cy="190" rx="72" ry="18" fill="none" stroke="#d94141" stroke-width="10"/>
+  <path d="M650 198 C675 260 740 260 766 198" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <circle cx="350" cy="310" r="102" fill="url(#orange)"/>
+  <path d="M350 208 V412 M248 310 H452 M280 246 C328 287 374 333 420 374 M420 246 C374 287 328 333 280 374" stroke="#7c2d12" stroke-width="10" fill="none"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">100m sprint event</title>
+  <desc id="desc">Runner on an athletics track</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#6dd5ed"/>
+      <stop offset="1" stop-color="#f7c948"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" x2="1">
+      <stop offset="0" stop-color="#d94141"/>
+      <stop offset="1" stop-color="#8b1e3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#sky)"/>
+  <circle cx="755" cy="92" r="54" fill="#fff4b8"/>
+  <path d="M0 350 C180 315 310 335 470 300 C635 264 740 285 900 244 L900 560 L0 560 Z" fill="#1f8a5b"/>
+  <path d="M0 410 C220 372 475 382 900 315 L900 560 L0 560 Z" fill="url(#track)"/>
+  <path d="M0 455 C250 420 520 420 900 360" fill="none" stroke="#fff" stroke-width="10" opacity=".82"/>
+  <path d="M0 505 C280 462 545 466 900 410" fill="none" stroke="#fff" stroke-width="8" opacity=".72"/>
+  <circle cx="420" cy="210" r="32" fill="#152034"/>
+  <path d="M408 246 L350 318 L430 344 L488 272" fill="none" stroke="#152034" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M384 278 L306 255" fill="none" stroke="#152034" stroke-width="20" stroke-linecap="round"/>
+  <path d="M428 344 L378 428" fill="none" stroke="#152034" stroke-width="24" stroke-linecap="round"/>
+  <path d="M428 344 L528 398" fill="none" stroke="#152034" stroke-width="24" stroke-linecap="round"/>
+  <path d="M378 428 L330 432" fill="none" stroke="#ffce5c" stroke-width="16" stroke-linecap="round"/>
+  <path d="M528 398 L572 430" fill="none" stroke="#ffce5c" stroke-width="16" stroke-linecap="round"/>
+</svg>

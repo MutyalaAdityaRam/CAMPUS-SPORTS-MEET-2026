@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | Campus Sports Meet 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html"><img class="brand-logo" src="images/logo.svg" alt=""> <span>Campus Sports Meet 2026</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="sports.html">Sports Events</a>
+        <a class="active" href="register.html">Register</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-title">
+      <p class="eyebrow">Student Entry</p>
+      <h1>Participation Registration</h1>
+    </section>
+
+    <div id="participationMessage" class="banner-message" aria-live="polite"></div>
+
+    <section class="form-grid">
+      <form id="participationForm" class="form-card" novalidate>
+        <h2>Student Participation Form</h2>
+
+        <div class="field-group">
+          <label for="studentName">Student Name</label>
+          <input type="text" id="studentName" name="studentName" placeholder="Enter full name">
+          <span class="error" id="studentNameError"></span>
+        </div>
+
+        <div class="field-group">
+          <label for="registerNumber">Register Number</label>
+          <input type="text" id="registerNumber" name="registerNumber" placeholder="BL.XX.XXXNNNNN">
+          <span class="error" id="registerNumberError"></span>
+        </div>
+
+        <div class="field-group">
+          <label for="email">Email ID</label>
+          <input type="email" id="email" name="email" placeholder="Your Email ID">
+          <span class="error" id="emailError"></span>
+        </div>
+
+        <div class="field-group">
+          <label for="mobile">Mobile Number</label>
+          <input type="tel" id="mobile" name="mobile" placeholder="10 digit mobile number">
+          <span class="error" id="mobileError"></span>
+        </div>
+
+        <div class="field-row">
+          <div class="field-group">
+            <label for="department">Department</label>
+            <select id="department" name="department">
+              <option value="">Select department</option>
+              <option>AID</option>
+              <option>AIE</option>
+              <option>CSE</option>
+              <option>ECE</option>
+              <option>EAC</option>
+              <option>MEC</option>
+              <option>RAE</option>
+              <option>ELC</option>
+            </select>
+            <span class="error" id="departmentError"></span>
+          </div>
+
+          <div class="field-group">
+            <label for="year">Year of Study</label>
+            <select id="year" name="year">
+              <option value="">Select year</option>
+              <option>I Year</option>
+              <option>II Year</option>
+              <option>III Year</option>
+              <option>IV Year</option>
+            </select>
+            <span class="error" id="yearError"></span>
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label for="eventSelection">Event Selection</label>
+          <select id="eventSelection" name="eventSelection">
+            <option value="">Select open event</option>
+          </select>
+          <span class="error" id="eventSelectionError"></span>
+        </div>
+
+        <div class="field-row">
+          <div class="field-group">
+            <label for="participationType">Participation Type</label>
+            <select id="participationType" name="participationType">
+              <option value="">Select type</option>
+              <option value="Individual">Individual</option>
+              <option value="Team">Team</option>
+            </select>
+            <span class="error" id="participationTypeError"></span>
+          </div>
+
+          <div class="field-group team-only hidden">
+            <label for="teamMembers">Number of Team Members</label>
+            <input type="number" id="teamMembers" name="teamMembers" min="2" max="6" placeholder="2 to 6">
+            <span class="error" id="teamMembersError"></span>
+          </div>
+        </div>
+
+        <div class="field-group team-only hidden">
+          <label for="teamName">Team Name</label>
+          <input type="text" id="teamName" name="teamName" placeholder="Required for team participation">
+          <span class="error" id="teamNameError"></span>
+        </div>
+
+        <button class="primary-button" type="submit">Submit Participation</button>
+      </form>
+
+      <aside class="summary-card">
+        <h2>Successful Registrations</h2>
+        <p class="counter"><span id="participationCount">0</span> Entries</p>
+        <h3 class="summary-subtitle">Event-wise Participation Count</h3>
+        <div id="eventParticipationCounts" class="count-list"></div>
+        <div id="participantDetails" class="details-list">
+          <p class="muted">Successful entries will appear here.</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Department of Physical Education | Sports Committee | Contact: sportscommittee@college.edu | +91 98765 43210</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

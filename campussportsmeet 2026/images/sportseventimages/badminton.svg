@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Badminton singles event</title>
+  <desc id="desc">Badminton racket and shuttle</desc>
+  <defs>
+    <linearGradient id="court" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#43cea2"/>
+      <stop offset="1" stop-color="#185a9d"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#court)"/>
+  <path d="M80 105 H820 V455 H80 Z M80 280 H820 M450 105 V455" fill="none" stroke="#eafff6" stroke-width="8" opacity=".85"/>
+  <ellipse cx="355" cy="265" rx="118" ry="156" transform="rotate(-28 355 265)" fill="none" stroke="#152034" stroke-width="18"/>
+  <path d="M415 390 L540 505" stroke="#152034" stroke-width="22" stroke-linecap="round"/>
+  <path d="M292 142 L436 387 M247 188 L480 343 M220 242 L506 290 M223 303 L501 231 M262 363 L461 176" stroke="#ffffff" stroke-width="4" opacity=".72"/>
+  <path d="M605 178 L720 132 L682 250 Z" fill="#ffffff"/>
+  <path d="M605 178 L682 250 M635 166 L690 222 M665 154 L698 194" stroke="#d94141" stroke-width="6"/>
+  <circle cx="605" cy="178" r="17" fill="#ffce5c"/>
+</svg>
